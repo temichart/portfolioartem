@@ -1,0 +1,25 @@
+.main-header{
+    position: relative;
+width: 164px;
+height: 53px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+margin-top: 75px;
+margin-left: 115px;
+}
+.main-img{
+    position: absolute;
+    width: 622px;
+    height: 373px;
+}
+.main{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
