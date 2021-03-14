@@ -1,9 +1,49 @@
 body{
     margin:0;
     font-family: 'Roboto', sans-serif;
-    color:#FFFFFF;
     font-size: 18px;
     background: #196E8B;
+    }
+    
+    .header1{
+        display: flex;
+	    align-items: center;
+        width: 1560px;
+        height: 90px;
+        background: white;
+        color:#196E8B ;
+        font-weight: bold;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 22px;
+        letter-spacing: .2em;
+    }
+    .nav-elka{
+        margin-left: 0px;
+        padding-top:20px;
+        letter-spacing: .2em;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 22px;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        margin-right: 25px;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 0.06em;
+        text-decoration: none;
+        width: 550px;
+        color:#196E8B ;
+    }
+        
+    .nav-elka:hover{
+        color:rgb(238, 134, 103);
+    }
+    .block{
+        width:1560px;
+        text-align: center;
+
+    }
+    .block:hover{
+        color:rgb(238, 134, 103);
     }
     .toy{
         position:absolute;
@@ -12,18 +52,19 @@ body{
     }
     .tree{
     position:absolute;
-    margin-top: 50px; 
-    margin-left: 260px;
+    margin-left: 460px;
     }
     button{
-        color: #232323;
+    color: #232323;
     background: transparent;
     border: 1px solid #232323;
     position: relative;
-    font-size: 10px;
+    font-size: 12px;
     letter-spacing: .3em;
     font-family: 'Montserrat', sans-serif;
     padding: 17px 34px 17px 39px;
+    margin: 15px;
+    margin-top: 20px;
     transition: .2s ease-in-out;
     cursor: pointer;
     }
@@ -41,5 +82,20 @@ body{
     }
     button:hover:before {
     transform: translate(4px, 4px);
+    }
+    #sectionred button:before{
+        background-color: rgb(226, 159, 147);
+    }
+    #sectionwhite button:before{
+        background-color: rgb(204, 204, 204);
+    }
+    #sectionorange button:before{
+        background-color: rgb(238, 134, 103);
+    }
+    #sectionpurple button:before{
+        background-color: rgb(189, 113, 204);
+    }
+    .allbutton{
+        width: 370px;
     }
     
