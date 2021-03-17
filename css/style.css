@@ -20,8 +20,8 @@ background: #265b9779;
 }
 .container{
 	
-	width:450px;
-	margin: 38px 580px 35px 90px;
+	width:750px;
+	margin: 38px 210px 35px 90px;
 }
 .nav{
 	font-size: 18px;
@@ -30,7 +30,7 @@ background: #265b9779;
 	font-weight: normal;
 	}
 .nav-link{
-	margin-right: 25px;
+	margin-right: 55px;
 	font-family: 'Roboto', sans-serif;
 	color: #FFFFFF;
 	letter-spacing: 0.06em;
